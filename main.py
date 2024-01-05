@@ -12,7 +12,7 @@ from sklearn.model_selection import train_test_split
 
 """1) Match the moves (rock, scissors, paper) to (0, 1, 2 respectively)."""
 
-pathData = 'C:\\Users\\User\\PycharmProjects\\Rock-Scissors-Paper-Agent\\rps-cv-images'
+pathData = 'your-path\\Rock-Scissors-Paper-Agent\\rps-cv-images'
 
 moves = []
 fileWithFigure = []
@@ -244,7 +244,7 @@ plt.show()
    e.g. from the internet or your own, which you should rescale to the same dataset size.'''
 
 # Load the image
-new_image_path = ('C:\\Users\\User\\PycharmProjects\\Rock-Scissors-Paper-Agent\\rps-cv-images\\scissors'
+new_image_path = ('your-path\\Rock-Scissors-Paper-Agent\\rps-cv-images\\scissors'
                   '\\0CSaM2vL2cWX6Cay.png')
 
 # Pre-processing of the new image
