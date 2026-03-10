@@ -12,9 +12,9 @@ Images are loaded from the [Kaggle Rock-Paper-Scissors dataset](https://www.kagg
 
 | Class    | Original | Balanced |
 |----------|----------|----------|
-| Rock     | 527,076  | 750      |
-| Paper    | 506,944  | 750      |
-| Scissors | 189,225  | 750      |
+| Rock     | 527.076  | 750      |
+| Paper    | 506.944  | 750      |
+| Scissors | 189.225  | 750      |
 
 ### 2. Image Preprocessing
 The `preprocessImage()` function:
@@ -80,4 +80,5 @@ pathData = kagglehub.dataset_download("drgfreeman/rockpaperscissors")
 
 
 ## Conclusion
-The combination of a balanced dataset, improved CNN architecture, and a counter-move strategy transformed the agent from 60% to **98% win rate**. The CNN outperforms MLP and KNN because it understands spatial patterns in images rather than treating pixels independently. The counter-move strategy is the key insight — an agent that correctly identifies the opponent's gesture will always play the winning response.
+
+The combination of a balanced dataset, improved CNN architecture, and a counter-move strategy transformed the agent  **98% win rate**. The CNN outperforms MLP and KNN because it understands spatial patterns in images rather than treating pixels independently. The counter-move strategy is the key insight — an agent that correctly identifies the opponent's gesture will always play the winning response.
